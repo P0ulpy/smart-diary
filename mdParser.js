@@ -69,7 +69,7 @@ console.error = (...args) => consoleError(Color.bold + Color.fgRed, ...args, Col
 const fs = require('fs');
 const path = require('path');
 
-const sourceFilePath = path.join(__dirname, "source.md");
+const sourceFilePath = path.join(__dirname, "source/source.md");
 const notes = fs.readFileSync(sourceFilePath);
 
 let parsedNotes = [];

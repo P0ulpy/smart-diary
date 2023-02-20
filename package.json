@@ -2,26 +2,23 @@
   "name": "smart-diary",
   "version": "1.0.0",
   "description": "",
-  "main": "web/index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "mdParser": "node Prototype/mdParser.js",
-    "mdFixer": "node Prototype/mdFixer.js",
-    "wakeUpNeo": "node Prototype/wakeUpNeo.js"
+    "mdParser": "node mdParser.js",
+    "wakeUpNeo": "node wakeUpNeo.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/P0ulpy/Smart-Diary.git"
+    "url": "git+https://github.com/P0ulpy/smart-diary.git"
   },
   "author": "P0ulpy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/P0ulpy/Smart-Diary/issues"
+    "url": "https://github.com/P0ulpy/smart-diary/issues"
   },
-  "homepage": "https://github.com/P0ulpy/Smart-Diary#readme",
+  "homepage": "https://github.com/P0ulpy/smart-diary#readme",
   "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
